@@ -1,4 +1,4 @@
-Funcation ParameterTest()
+Function ParameterTest
 {
 	Write-Host $arg1
 	Write-Host $arg2
