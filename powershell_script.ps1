@@ -1,4 +1,7 @@
-param([string]$arg1="hard coded arg1", [string]$arg2="hard coded arg2")
+param(
+	[parameter(Mandatory=$true)] [string]$arg1,
+	[parameter(Mandatory=$true)] [string]$arg2
+)
 
 Function ParameterTest
 {
